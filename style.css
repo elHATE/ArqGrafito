@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        180deg,
+        rgba(204,204,204,1) 0%,
+        rgba(238,238,238,1) 50%,
+        rgba(204,204,204,1) 100%,
+
+    );
+}
+
+.header {
+    background-image: url(imagenespagina/1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.logo{
+    
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 800px;
+    width: 25px;
+    
+}
+
+span {
+    color: #7D7772;
+}
+
+p{
+    font-size: 17px;
+    color: rgb(244, 240, 255);
+    
+    margin-bottom: 35px;
+}
+.pswiper{
+    color: #f3ebeb;
+    text-shadow: 1px 1px 3px #292929;
+}
+.btn-1, .btn_2 {
+    display: inline-block;
+    padding: 13px 35px;
+    background-color:#7D7772;
+    color: #ffffff;
+}
+
+.about {
+    padding: 130px 0;
+    display: flex;
+}
+
+.about-img {
+    
+    height: 100%;
+    display: flex;
+}
+
+.about-img img{
+    width: 500px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-txt {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+h2 {
+    font-size:  40px;
+    line-height: 1;
+    color: #292929;
+    margin-bottom: 25px;
+}
+
+.about-txt p{
+    color: #292929;
+}
+.swiper{
+    margin-top: 4px;
+}
+.swiper-slide{
+    
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+    
+    
+}
+.swiper-slide img{
+    width: 100%;
+    border-radius: 15px;
+    height: 420px;
+    
+}
+
+.swiper-txt{
+    position: absolute;
+    padding: 25px;
+}
+.swiper-txt h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #292929;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+.desktop{
+    text-align: center;
+    z-index: 1;
+}
+.desktop img{
+    width: 800px;
+}
+
+.producto {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.producto h2 {
+    margin-bottom: 45px;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.product img{
+    margin-top: 50px;
+    border-radius: 25px 25px  ;
+    width: 200px;
+    height: 200px;
+}
+
+.product-txt {
+    padding: 10px 10px 30px 10px;
+}
+
+.product-txt h3{
+    font-size: 18px;
+    color: darkslategray;
+    margin-bottom: 25PX;
+}
+
+.product-txt p{
+    color: darkslategray;
+}
+
+.btn_2 {
+    padding: 5px 25px;
+}
+
+.information {
+    background-image: linear-gradient( rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(imagenespagina/1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+    padding: 100px 0;
+}
+
+.information-content {
+    display: flex;
+}
+
+.information-1 {
+    flex-basis: 50%;
+}
+
+.information-2 {
+    flex-basis: 50%;
+    padding-left: 50px;
+}
+
+.information-2 h2 {
+    color: #ffffff;
+}
+
+.img-content {
+    display: flex;
+}
+
+.img-content img{
+    width: 200px;
+    margin-right: 15px;
+}
+
+.contact {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.contact img{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+.contact img:hover{
+    transform: scale(1.2);
+}
+
+input{
+    padding: 15px 25px;
+    border: 1px solid aqua;
+    border-radius:  25px;
+    margin-right: 25px;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn-3 {
+    background-color: blue;
+    color: #ffffff;
+    cursor: pointer;
+}
+.footer {
+    background-color: darkslategrey;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: #ffffff;
+    font-size:  17px;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover{
+    color: aqua;
+}
+
+@media(max-width: 991px) {
+    .left {
+        display: none;
+    }
+    .swiper {
+        padding: 0 70px;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    .desktop{
+        padding: 30px;
+    }
+    .desktop img {
+        width: 100%;
+    }
+    .menu {
+        padding: 20px;
+    }
+    .logo{
+        width: 25px;
+        font-size: 13px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu-icono{
+        width: 25px;
+        font-size: 13px;
+        color: #f1f1f1;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left:  0;
+        right: 0;
+        background-color: aqua;
+        display: none;
+    }
+    
+    .menu .navbar ul li a:hover {
+        color: darkslategray;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked âˆ¼ .navbar {
+        display: initial;
+    }
+
+    .header{
+        background-position: left;
+        min-height: 0vh;
+        padding: 100px 30px;
+    }
+
+.header-txt {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.about{
+    padding: 30px;
+    flex-direction: column;
+}
+.about img{
+    justify-content: center;
+    order: 2;
+}
+
+.about-img img{
+    margin-left: -2px;
+    margin-right: 80px;
+}
+
+.about-txt {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about-txt p {
+    margin-bottom: 15px;
+}
+.producto h2 {
+    margin-bottom: 45px;
+    
+}
+.product {
+    padding: 30px;
+}
+.product-content{
+    padding: 0 30px;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.information {
+    padding: 30px;
+    background-position: right;
+}
+.information-content {
+    flex-direction: column;
+}
+
+.information-2 {
+    text-align: center ;
+    padding: 0;
+}
+
+.img-content {
+    justify-content: center;
+}
+
+.img-content img{
+    width: 80px;
+}
+
+.contact{
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.contact img {
+    margin-bottom: 100px;
+    margin-left: 10px;
+    
+}
+
+input {
+    margin: 0 10px 10px 0;
+}
+
+
+
+}
